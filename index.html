@@ -4,10 +4,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>libAttachSQL</title>
-
+    
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -18,28 +21,33 @@
     ga('send', 'pageview');
 
     </script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
   </head>
   <body>
     <div class="wrapper">
       <header>
         <h1>libAttachSQL</h1>
         <p>A lightweight C API for MySQL servers</p>
-        <p class="view"><a href="https://github.com/libattachsql/libattachsql">View the Project on GitHub <small>libattachsql/libattachsql</small></a></p>
+        <p class="view"><a href="http://github.com/libattachsql/libattachsql">View the Project on GitHub <small>libattachsql/libattachsql</small></a></p>
+        <p class="view"><a href="irc://chat.freenode.net/libAttachSQL">IRC Channel <small>#libAttachSQL on Freenode</small></a></p>
+        <p class="view"><a href="http://docs.libattachsql.org/">Documentation <small>docs.libattachsql.org</small></a></p>
         <ul>
-          <li><a href="https://github.com/libattachsql/libattachsql/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/libattachsql/libattachsql">View On <strong>GitHub</strong></a></li>
-          <li><a href="https://travis-ci.org/libattachsql/libattachsql">Travis <strong><img src="https://travis-ci.org/libattachsql/libattachsql.svg?branch=master" alt="Travis Status" /></strong></a></li>
+          <li><a href="https://github.com/libattachsql/libattachsql/archive/v0.3.0.tar.gz">Download <strong>0.3.0 source</strong></a></li>
+          <li><a href="https://github.com/libattachsql/libattachsql/tarball/master">Download <strong>pre-release</strong></a></li>
+          <li><a href="http://github.com/libattachsql/libattachsql">Fork On <strong>GitHub</strong></a></li>
         </ul>
+            <a class="twitter-timeline"  href="https://twitter.com/libAttachSQL" data-widget-id="511457402663608320">Tweets by @libAttachSQL</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
       </header>
       <section>
         <h2>libAttachSQL</h2>
-        <p>libAttachSQL is a lightweight C API for MySQL servers originally created by HP's Advanced Technology Group.  It is desgined to be easy to use and easy to contribute to.</p>
-        <p><b>WARNING: THIS PROJECT IS IN ALPHA, API MAY CHANGE!</b></p>
+        <p>libAttachSQL is a lightweight, non-blocking C API for MySQL servers originally created by HP's Advanced Technology Group.  It is desgined to be easy to use and easy to contribute to.</p>
+        <p><strong>WARNING: THIS PROJECT IS IN ALPHA, API MAY CHANGE!</strong></p>
+        <h2>Project Information</h2>
+        <p>The libAttachSQL source code is <a href="https://github.com/libattachsql/libattachsql">hosted on GitHub</a>.  All code is automatically tested using <a href="https://travis-ci.org/libattachsql/libattachsql">Travis CI</a>.  The status of what is currently being worked on can be seen on our <a href="https://waffle.io/libattachsql/libattachsql">Waffle.io project board</a>.</p>
+        <p>Documentation is in reStructuredText files included in the source and is compiled to generate our <a href="http://docs.libattachsql.org/">Read The Docs documentation.</a></p>
+        <h2>Questions?</h2>
+        <p>Feel free to <a href="https://github.com/libattachsql/libattachsql/issues/new">file an issue</a>, talk to us on<a href="irc://chat.freenode.net/libAttachSQL">#libAttachSQL on Freenode</a> or email <a href="mailto:andrew@libattachsql.org">andrew@libattachsql.org</a></p>
+        <hr />
         <h2>News</h2>
         <h3>Version 0.3.0 Alpha released!</h3>
         <p>2014-09-01</p>
@@ -50,7 +58,6 @@
           <li>Enhanced testing (and fixes)</li>
         </ul>
         <p>As before the alpha releases are source-only releases.  You can either get the source directly from GitHub or a tarball of this release <a href="https://github.com/libattachsql/libattachsql/archive/v0.3.0.tar.gz">downloaded here</a>.</p>
-        <hr />
         <h3>Version 0.2.0 Alpha released!</h3>
         <p>2014-08-15</p>
         <p>Hot on the tails of the first alpha release we have released the second alpha of libAttachSQL.  This includes many fixes and enhancements including:</p>
@@ -61,24 +68,17 @@
           <li>Documentation improvements including examples</li>
         </ul>
         <p>For now this is still a source-only release and the source can be <a href="https://github.com/libattachsql/libattachsql/archive/v0.2.0.tar.gz">downloaded from GitHub</a>.</p>
-        <hr />
         <h3>Version 0.1.0 Alpha released!</h3>
         <p>2014-08-08</p>
         <p>Our first early release version of libAttachSQL is out.  It can currently connect to MySQL and perform basic queries.  We do not recommend it for production at this time and the API will likely change a bit as we head towards a beta release.<br />
         You can download <a href="https://github.com/libattachsql/libattachsql/archive/v0.1.0.tar.gz">v0.1.0 directly from github</a>.
         </p>
-        <h2>Project Information</h2>
-        <p>The libAttachSQL source code is <a href="https://github.com/libattachsql/libattachsql">hosted on GitHub</a>.  All code is automatically tested using <a href="https://travis-ci.org/libattachsql/libattachsql">Travis CI</a> with the build status shown above</p>
-        <p>Documentation is in reStructuredText files included in the source and is compiled to generate our <a href="http://docs.libattachsql.org/">Read The Docs documentation.</a></p>
-        <h2>Questions?</h2>
-        <p>Feel free to <a href="https://github.com/libattachsql/libattachsql/issues/new">file an issue</a>, talk to us on<a href="irc://chat.freenode.net/libAttachSQL">#libAttachSQL on Freenode</a> or email <a href="mailto:andrew@libattachsql.org">andrew@libattachsql.org</a></p>
       </section>
+      <footer>
+        <p>This project is maintained by <a href="http://github.com/LinuxJedi">Andrew Hutchings</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
     </div>
-    <footer>
-      <p>Project maintained by <a href="https://github.com/libattachsql">libattachsql</a></p>
-      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
-    </footer>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
+    <script src="javascripts/scale.fix.js"></script>
   </body>
 </html>
