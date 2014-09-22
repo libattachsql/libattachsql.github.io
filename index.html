@@ -31,7 +31,7 @@
         <p class="view"><a href="irc://chat.freenode.net/libAttachSQL">IRC Channel <small>#libAttachSQL on Freenode</small></a></p>
         <p class="view"><a href="http://docs.libattachsql.org/">Documentation <small>docs.libattachsql.org</small></a></p>
         <ul>
-          <li><a href="https://github.com/libattachsql/libattachsql/archive/v0.3.0.tar.gz">Download <strong>0.3.0 source</strong></a></li>
+          <li><a href="https://github.com/libattachsql/libattachsql/archive/v0.4.0.tar.gz">Download <strong>0.4.0 source</strong></a></li>
           <li><a href="https://github.com/libattachsql/libattachsql/tarball/master">Download <strong>pre-release</strong></a></li>
           <li><a href="http://github.com/libattachsql/libattachsql">Fork On <strong>GitHub</strong></a></li>
         </ul>
@@ -41,7 +41,7 @@
       <section>
         <h2>libAttachSQL</h2>
         <p>libAttachSQL is a lightweight, non-blocking C API for MySQL servers originally created by HP's Advanced Technology Group.  It is desgined to be easy to use and easy to contribute to.</p>
-        <p><strong>WARNING: THIS PROJECT IS IN ALPHA, API MAY CHANGE!</strong></p>
+        <p><strong>WARNING: THIS PROJECT IS IN BETA, API MAY CHANGE!</strong></p>
         <h2>Project Information</h2>
         <p>The libAttachSQL source code is <a href="https://github.com/libattachsql/libattachsql">hosted on GitHub</a>.  All code is automatically tested using <a href="https://travis-ci.org/libattachsql/libattachsql">Travis CI</a>.  The status of what is currently being worked on can be seen on our <a href="https://waffle.io/libattachsql/libattachsql">Waffle.io project board</a>.</p>
         <p>Documentation is in reStructuredText files included in the source and is compiled to generate our <a href="http://docs.libattachsql.org/">Read The Docs documentation.</a></p>
@@ -49,6 +49,16 @@
         <p>Feel free to <a href="https://github.com/libattachsql/libattachsql/issues/new">file an issue</a>, talk to us on<a href="irc://chat.freenode.net/libAttachSQL">#libAttachSQL on Freenode</a> or email <a href="mailto:andrew@libattachsql.org">andrew@libattachsql.org</a></p>
         <hr />
         <h2>News</h2>
+        <h3>Version 0.4.0 Beta released!</h3>
+        <p>2014-09-22</p>
+        <p>The first beta version of libAttachSQL has been released today.  Instead of lots of little features we bring you one huge feature (Server-side Prepared Statement support) along with bug fixes.  Here is a breakdown of what to expect with this release:</p>
+        <ul>
+          <li>Compiler fixes for RedHat/CentOS 6.x, GCC 4.9 and Python 3.x (Python is used for documentation building)</li>
+          <li>Much faster building for multi-core systems</li>
+          <li>Buffer and SSL bug fixes</li>
+          <li><strong>Prepared Statement Support!!!</strong></li>
+        </ul>
+        <p>This is a source-only release which can either be obtained from GitHub or a tarball can be <a href="https://github.com/libattachsql/libattachsql/archive/v0.4.0.tar.gz">downloaded here</a>.</p>
         <h3>Version 0.3.0 Alpha released!</h3>
         <p>2014-09-01</p>
         <p>Today marks the third alpha release of libAttachSQL.  We are well on our way to the first stable release, this release adding many new fixes and features such as:</p>
