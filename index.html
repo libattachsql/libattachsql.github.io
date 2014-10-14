@@ -31,7 +31,7 @@
         <p class="view"><a href="irc://chat.freenode.net/libAttachSQL">IRC Channel <small>#libAttachSQL on Freenode</small></a></p>
         <p class="view"><a href="http://docs.libattachsql.org/">Documentation <small>docs.libattachsql.org</small></a></p>
         <ul>
-          <li><a href="https://github.com/libattachsql/libattachsql/archive/v0.5.0.tar.gz">Download <strong>0.5.0 source</strong></a></li>
+          <li><a href="https://github.com/libattachsql/libattachsql/archive/v0.9.0.tar.gz">Download <strong>0.9.0RC source</strong></a></li>
           <li><a href="https://github.com/libattachsql/libattachsql/tarball/master">Download <strong>pre-release</strong></a></li>
           <li><a href="http://github.com/libattachsql/libattachsql">Fork On <strong>GitHub</strong></a></li>
         </ul>
@@ -49,6 +49,22 @@
         <p>Feel free to <a href="https://github.com/libattachsql/libattachsql/issues/new">file an issue</a>, talk to us on<a href="irc://chat.freenode.net/libAttachSQL">#libAttachSQL on Freenode</a> or email <a href="mailto:andrew@libattachsql.org">andrew@libattachsql.org</a></p>
         <hr />
         <h2>News</h2>
+        <h3>Version 0.9.0 RC released!</h3>
+        <p>2014-10-14</p>
+        <p>The previous beta of libAttachSQL was pretty successful so not a huge amount has changed for the RC.  In addition to the standard source releases there are now binary packages!  There are currently packages for two Ubuntu versions and two RedHat/CentOS versions.  As we progress through RC and GA we will build for more platforms.  The major things to note with this release are:</p>
+        <ul>
+          <li>3 new API calls for prepared statements</li>
+          <li>A new connection grouping feature so multiple connections can run from a single event loop</li>
+          <li>Compile fixes</li>
+          <li>Packaging</li>
+        </ul>
+        <p>You can use the following links to download libAttachSQL 0.9.0RC:</p>
+        <ul>
+          <li><a href="https://github.com/libattachsql/libattachsql/archive/v0.5.0.tar.gz">Source Tarball</a></li>
+          <li>RHEL 6.x/CentOS 6.x x86_64 <a href="/packages/RHEL6/libattachsql-0.9.0-1.x86_64.rpm">library RPM</a> and <a href="/packages/RHEL6/libattachsql-devel-0.9.0-1.x86_64.rpm">development library RPM</a></li>
+          <li>RHEL 7.x/CentOS 7.x x86_64 <a href="/packages/RHEL7/libattachsql-0.9.0-1.x86_64.rpm">library RPM</a>, <a href="/packages/RHEL7/libattachsql-devel-0.9.0-1.x86_64.rpm">development library RPM</a> and <a href="/packages/RHEL7/libattachsql-debuginfo-0.9.0-1.x86_64.rpm">debuginfo RPM</a></li>
+          <li><a href="https://launchpad.net/~linuxjedi/+archive/ubuntu/ppa">PPA for Ubuntu 12.04 (Precise) and 14.04 (Trusty)</a></li>
+        </ul>
         <h3>Version 0.5.0 Beta released!</h3>
         <p>2014-10-08</p>
         <p>After much hammering with the new sysbench driver for libAttachSQL we have a new much more stable beta of libAttachSQL ready.  Major changes in this release are:
