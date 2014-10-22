@@ -5,7 +5,7 @@
 &lt;li&gt;&lt;a class="reference external" href="https://github.com/libattachsql/libattachsql/archive/v1.0.0.tar.gz"&gt;Source Tarball&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;RHEL 6.x/CentOS 6.x x86_64: &lt;a class="reference external" href="/packages/RHEL6/libattachsql-1.0.0-1.x86_64.rpm"&gt;6.x library RPM&lt;/a&gt; and &lt;a class="reference external" href="/packages/RHEL6/libattachsql-devel-1.0.0-1.x86_64.rpm"&gt;6.x development library RPM&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;RHEL 7.x/CentOS 7.x x86_64: &lt;a class="reference external" href="/packages/RHEL7/libattachsql-1.0.0-1.x86_64.rpm"&gt;7.x library RPM&lt;/a&gt;, &lt;a class="reference external" href="/packages/RHEL7/libattachsql-devel-1.0.0-1.x86_64.rpm"&gt;7.x development library RPM&lt;/a&gt; and &lt;a class="reference external" href="/packages/RHEL7/libattachsql-debuginfo-1.0.0-1.x86_64.rpm"&gt;7.x debuginfo RPM&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://launchpad.net/~linuxjedi/+archive/ubuntu/ppa"&gt;PPA for Ubuntu 12.04 (Precise) and 14.04 (Trusty)&lt;/a&gt; (1.0.0 packages will be available in the next 24 hours)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://launchpad.net/~linuxjedi/+archive/ubuntu/ppa"&gt;PPA for Ubuntu 12.04 (Precise) and 14.04 (Trusty)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;More platforms will come soon.&lt;/p&gt;
 </summary><category term="release"></category><category term="GA"></category></entry></feed>
